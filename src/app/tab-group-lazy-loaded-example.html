@@ -1,0 +1,12 @@
+<mat-tab-group>
+	<mat-tab label="Init">
+	</mat-tab>
+	<!-- <mat-tab label="First [lazy]">
+		<ng-template matTabContent>
+			<child-component name="first" [length]="10000"></child-component>
+		</ng-template>
+	</mat-tab> -->
+	<mat-tab label="Second [no-lazy]">
+		<child-component name="second" [length]="10000"></child-component>
+	</mat-tab>
+</mat-tab-group>
